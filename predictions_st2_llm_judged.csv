@@ -1,0 +1,201 @@
+row_id,semeval-split,hazard_pred,product_pred,raw_model_output,hazard_true,product_true,hazard_llm_correct,product_llm_correct
+8,validation,E. COLI O157:H7,DRY SALAMI,"{'hazard': 'E. COLI O157:H7', 'product': 'DRY SALAMI'}",escherichia coli,salami,True,True
+9,validation,LISTERIA,"HAM, COOKED, SLICED","{'hazard': 'LISTERIA', 'product': 'HAM, COOKED, SLICED'}",listeria spp,ham slices,True,True
+14,validation,HEPATITIS A,COOKED CHICKEN,"{'hazard': 'HEPATITIS A', 'product': 'COOKED CHICKEN'}",enteroviruses,chicken based products,False,True
+39,validation,Possible Foreign Matter Contamination (nylon Cord),Woolworths Thick Sliced White And Jumbo Bread,"{'hazard': 'Possible Foreign Matter Contamination (nylon Cord)', 'product': 'Woolworths Thick Sliced White And Jumbo Bread'}",plastic fragment,bread,True,True
+53,validation,UNDECLARED PEANUT,"PLANTERS ROASTED SUNFLOWER SEEDS, SALTED","{'hazard': 'UNDECLARED PEANUT', 'product': 'PLANTERS ROASTED SUNFLOWER SEEDS, SALTED'}",pecan nut,ice cream,False,False
+56,validation,METAL,"Chicken, Nuggets, Breast Filet","{'hazard': 'METAL', 'product': 'Chicken, Nuggets, Breast Filet'}",metal fragment,chicken breast,True,True
+62,validation,Listeria Bacteria,Fresh Low Fat Modified Milk,"{'hazard': 'Listeria Bacteria', 'product': 'Fresh Low Fat Modified Milk'}",listeria monocytogenes,milk,True,True
+93,validation,Listeria,Chilled Smoked Salmon,"{'hazard': 'Listeria', 'product': 'Chilled Smoked Salmon'}",listeria monocytogenes,salmon,True,True
+95,validation,contamination,,"{'hazard': 'Listeria monocytogenes contamination', 'product': 'Sliced Shoulder Ham'}",plastic fragment,other not classified meat products,False,True
+99,validation,build up of pressure,,"{'hazard': 'build up of pressure', 'product': None}",yeasts,beer,False,True
+108,validation,Injury,,"{'hazard': 'injury', 'product': None}",packaging defect,wine,False,True
+109,validation,,Dairy Farmers—Shred Heads Natural Cheese Sticks,"{'hazard': None, 'product': 'Dairy Farmers—Shred Heads Natural Cheese Sticks'}",plastic fragment,snacks (various),True,True
+115,validation,galvanised wire metal contamination,Focaccia Bread & Roll Mix,"{'hazard': 'galvanised wire metal contamination', 'product': 'Focaccia Bread & Roll Mix'}",metal fragment,focaccia,True,True
+130,validation,aflatoxins,Safcol Asian Kitchen Brand,"{'hazard': 'aflatoxins', 'product': 'Safcol Asian Kitchen Brand Satay Tuna'}",Aflatoxin,tuna,True,True
+140,validation,Presence of a chemical substance that exceeds acceptable levels,Golden Mountain—Soya Bean Sauce,"{'hazard': 'Presence of a chemical substance that exceeds acceptable levels', 'product': 'Golden Mountain—Soya Bean Sauce'}",chemical,soy sauce,True,True
+147,validation,Polycyclic Aromatic Hydrocarbons,Olive-Pomace Oil,"{'hazard': 'polycyclic aromatic hydrocarbons', 'product': 'Olive-Pomace Oil'}",polycyclic aromatic hydrocarbons,olive oil,True,True
+155,validation,mould contamination,Australian Garlic Bread,"{'hazard': 'mould contamination', 'product': 'Australian Garlic Bread'}",incorrect use by dates,bread,True,True
+157,validation,bacterial contamination,Cotswold Spring Natural Mineral Water,"{'hazard': 'bacterial contamination', 'product': 'Cotswold Spring Natural Mineral Water'}",other,bottled water,True,True
+158,validation,Listeria monocytogenes,Fetta Cheese,"{'hazard': 'Listeria monocytogenes', 'product': 'Fetta Cheese'}",listeria monocytogenes,feta cheese,True,True
+159,validation,egg protein,Uncle Tobys Oat Temptations Selections Pack Breakfast Cereal,"{'hazard': 'egg protein', 'product': 'Uncle Tobys Oat Temptations Selections Pack Breakfast Cereal'}",eggs and products thereof,oats,True,True
+162,validation,small metal pieces,70g Cup Noodles,"{'hazard': 'small metal pieces', 'product': '70g Cup Noodles'}",metal fragment,noodles,True,True
+166,validation,undeclared allergen soy protein,Chef BOYARDEE 99% Fat Free CHEESE Ravioli in Tomato Sauce,"{'hazard': 'undeclared allergen soy protein', 'product': 'Chef BOYARDEE 99% Fat Free CHEESE Ravioli in Tomato Sauce'}",soybeans and products thereof,ravioli,True,True
+169,validation,E. coli,Romano Cheese Wheel,"{'hazard': 'E. coli', 'product': 'Romano Cheese Wheel'}",escherichia coli,cheese,True,True
+191,validation,egg albumen,Kenman—Black & Gold Party Mix Lollies,"{'hazard': 'egg albumen', 'product': 'Kenman—Black & Gold Party Mix Lollies'}",eggs and products thereof,lollipops,True,True
+201,validation,allergic reaction,Sunsol—Natural Fruity Muesli,"{'hazard': 'Allergic Reaction', 'product': 'Sunsol—Natural Fruity Muesli'}",peanuts and products thereof,muesli,False,True
+205,validation,Adverse Reaction,Black and Gold—Pasta Sauce,"{'hazard': 'Adverse Reaction', 'product': 'Black and Gold—Pasta Sauce'}",labelling/misdescription,pasta sauce,False,True
+211,validation,sharp foreign body of plant origin,Tomato Pasta Sauce & Tomato Pasta Sauce with Chilli,"{'hazard': 'sharp foreign body of plant origin', 'product': 'Tomato Pasta Sauce & Tomato Pasta Sauce with Chilli'}",other not classified hazards for foreign bodies,pasta sauce,True,True
+217,validation,Allergic Reaction,Porridge Plus Variety Pack,"{'hazard': 'Allergic Reaction', 'product': 'Porridge Plus Variety Pack'}",eggs and products thereof,oats,False,True
+220,validation,Listeria monocytogenes,Cooked Sliced Silverside and Cooked Sliced Turkey,"{'hazard': 'Listeria monocytogenes', 'product': 'Cooked Sliced Silverside and Cooked Sliced Turkey'}",listeria monocytogenes,turkey and turkey preparations,True,True
+236,validation,Allergic reaction,Unbaked Premium Pork and Beef Sausage Rolls,"{'hazard': 'Allergic reaction', 'product': 'Unbaked Premium Pork and Beef Sausage Rolls'}",soybeans and products thereof,pork and beef sausages,False,True
+237,validation,Allergic Reaction,Lowan Whole Foods Cocoa Bombs,"{'hazard': 'Allergic Reaction', 'product': 'Lowan Whole Foods Cocoa Bombs'}",milk and products thereof,breakfast cereals,False,True
+240,validation,E. Coli bacterial count,Azzura Gelati—Celebrate Ice Cream Cake,"{'hazard': 'E. Coli bacterial count', 'product': 'Azzura Gelati—Celebrate Ice Cream Cake'}",escherichia coli,ice cream,True,True
+241,validation,Listeria Monocytogenes,D'Orsogna—Shaved BBQ Chicken,"{'hazard': 'Listeria Monocytogenes', 'product': ""D'Orsogna—Shaved BBQ Chicken""}",listeria monocytogenes,chicken breast,True,True
+260,validation,bromate,Dasani bottled still water,"{'hazard': 'bromate', 'product': 'Dasani bottled still water'}",chemical compound (high content),mineral waters,True,True
+265,validation,Undeclared allergen (walnut pieces),Kid Cuisine Frozen Dinner,"{'hazard': 'undeclared allergen (walnut pieces)', 'product': 'Kid Cuisine Frozen Dinner'}",walnut,pasta,True,False
+276,validation,pieces of metal,"Frozen, Fully Cooked Chicken Breast Strips","{'hazard': 'pieces of metal', 'product': 'Frozen, Fully Cooked Chicken Breast Strips'}",metal fragment,chicken breast,True,True
+293,validation,Listeria monocytogenes,"ARMOUR, Lunch Makers","{'hazard': 'Listeria monocytogenes', 'product': 'ARMOUR, Lunch Makers'}",listeria monocytogenes,cooked ham,True,False
+294,validation,May contain larvae of foreign insects,,"{'hazard': 'May contain larvae of foreign insects', 'product': None}",insects,pasta,True,True
+298,validation,metal fragments,Beef mince regular,"{'hazard': 'metal fragments', 'product': 'Beef mince regular'}",metal fragment,minced pork,True,False
+305,validation,Ciguatera food poisoning,Spanish Mackerel Steaks/Cutlets,"{'hazard': 'Ciguatera food poisoning', 'product': 'Spanish Mackerel Steaks/Cutlets'}",toxin,mackerel,False,True
+306,validation,undeclared allergen - gluten,BBQ thin & beef barbeque sausages,"{'hazard': 'undeclared allergen - gluten', 'product': 'BBQ thin & beef barbeque sausages'}",cereals containing gluten and products thereof,sausage,False,True
+313,validation,Undeclared gluten,Corn Pappadum Bombay Mix Flavour,"{'hazard': 'undeclared gluten', 'product': 'Corn Pappadum Bombay Mix Flavour'}",cereals containing gluten and products thereof,corn,False,True
+326,validation,naturally-occurring yeast,Tango carbonated drink,"{'hazard': 'naturally-occurring yeast', 'product': 'Tango carbonated drink'}",other not classified,flavoured soft drink,False,True
+334,validation,microbial contamination,Shrimp paste,"{'hazard': 'microbial contamination', 'product': 'Shrimp paste'}",other not classified biological hazards,shrimps,False,True
+338,validation,,halloum cheese and yoghurt-based products,"{'hazard': None, 'product': 'halloum cheese and yoghurt-based products'}",unauthorised placing on the market,yoghurt,False,True
+347,validation,Choking,Junior Meal Mates—Various products,"{'hazard': 'Choking', 'product': 'Junior Meal Mates—Various products'}",plastic fragment,ready to eat - cook meals,False,False
+350,validation,Listeria monocytogenes,Dairy Farmers—Cracker Barrel Extra Sharp 500g block cheese,"{'hazard': 'Listeria monocytogenes', 'product': 'Dairy Farmers—Cracker Barrel Extra Sharp 500g block cheese'}",listeria monocytogenes,cheese,True,True
+352,validation,egg white lysozyme,"MEATBALLS POMODORO & PENNE with peppers and onions in a tomato basil sauce, Complete Skillet Meal for Two","{'hazard': 'egg white lysozyme', 'product': 'MEATBALLS POMODORO & PENNE with peppers and onions in a tomato basil sauce, Complete Skillet Meal for Two'}",eggs and products thereof,pasta products,True,False
+355,validation,Allergic reaction,Fine buckwheat,"{'hazard': 'Allergic reaction', 'product': 'Fine buckwheat'}",cereals containing gluten and products thereof,buckwheat,False,True
+370,validation,egg,Meadow Gold Hook’d on Chocolate ice cream,"{'hazard': 'egg', 'product': 'Meadow Gold Hook’d on Chocolate ice cream'}",eggs and products thereof,ice cream,False,True
+373,validation,Ingestion of metal fragments,dried fruits,"{'hazard': 'ingestion of metal fragments', 'product': 'dried fruits'}",metal fragment,dried fruits,True,True
+376,validation,Ingestion of metal,Sultanas,"{'hazard': 'ingestion of metal', 'product': 'Sultanas'}",metal fragment,dried fruits,True,True
+377,validation,Glass fragments,Harkola Pty Ltd—Halawa—Vanilla (Plain),"{'hazard': 'Glass fragments', 'product': 'Harkola Pty Ltd—Halawa—Vanilla (Plain)'}",glass fragment,sesame paste,True,False
+384,validation,Escherichia coli,Bidgee Cheese,"{'hazard': 'Escherichia coli', 'product': 'Bidgee Cheese'}",escherichia coli,semi-hard cheeses,True,True
+405,validation,Foreign matter,Lions Christmas Cake,"{'hazard': 'Foreign matter', 'product': 'Lions Christmas Cake'}",foreign bodies,cakes,True,True
+408,validation,Choking,Classic Crinkle Cut potato crisps,"{'hazard': 'Choking', 'product': 'Classic Crinkle Cut potato crisps'}",rubber fragments,potato chips,False,True
+430,validation,,Homebrand Oyster Sauce,"{'hazard': 'Microbial contamination', 'product': 'Homebrand Oyster Sauce'}",cereals containing gluten and products thereof,oyster sauce,True,True
+432,validation,Undeclared allergen - peanut,Apricot Choc Cookies,"{'hazard': 'undeclared allergen - peanut', 'product': 'Apricot Choc Cookies'}",peanuts and products thereof,biscuits,True,False
+433,validation,cyanogenic glycosides,Vege Crackers,"{'hazard': 'cyanogenic glycosides', 'product': 'Vege Crackers'}",high content of cyanide,crackers,True,True
+436,validation,Illness,Menora Gourmet Spices—Garam Masala,"{'hazard': 'Illness', 'product': 'Menora Gourmet Spices—Garam Masala'}",labelling/misdescription,spice mix,False,True
+460,validation,glass contamination,Chocolate and Toffee Crisp Bites,"{'hazard': 'glass contamination', 'product': 'Chocolate and Toffee Crisp Bites'}",glass fragment,toffee,True,True
+467,validation,Ingestion of metal pieces,Anzac Biscuits,"{'hazard': 'ingestion of metal pieces', 'product': 'Anzac Biscuits'}",metal fragment,biscuits,True,True
+481,validation,Listeria monocytogenes,Sliced chicken breast,"{'hazard': 'Listeria monocytogenes', 'product': 'Sliced chicken breast'}",listeria monocytogenes,chicken breast,True,True
+497,validation,salmonella,Meijer Brand dry-roasted peanuts and,"{'hazard': 'salmonella', 'product': 'Meijer Brand dry-roasted peanuts and Meijer Brand ice cream novelties'}",salmonella,ice cream,True,False
+510,validation,Illness,Punchun Sesame Sauce,"{'hazard': 'Illness', 'product': 'Punchun Sesame Sauce'}",labelling/misdescription,sesame,False,True
+549,validation,Salmonella,Meadow Gold Herd of Laughter Tin Can Alley ice cream,"{'hazard': 'Salmonella', 'product': 'Meadow Gold Herd of Laughter Tin Can Alley ice cream'}",salmonella,ice cream,True,True
+550,validation,Salmonella,caramel candy bar dip ice cream,"{'hazard': 'Salmonella', 'product': 'caramel candy bar dip ice cream'}",salmonella,ice cream,True,True
+564,validation,Salmonella,ice cream,"{'hazard': 'Salmonella', 'product': 'ice cream'}",salmonella,ice cream,True,True
+578,validation,Salmonella,peanut butter,"{'hazard': 'Salmonella', 'product': 'peanut butter'}",salmonella,peanuts,True,False
+587,validation,"gastrointestinal illness, nausea, or vomiting",marie callender turtle pies,"{'hazard': 'gastrointestinal illness, nausea, or vomiting', 'product': 'Marie Callender Turtle Pies'}",microbiological contamination,cream chocolate pie,False,False
+598,validation,Choking,Campbell's Country Ladle Potato and Leek Soup,"{'hazard': 'Choking', 'product': ""Campbell's Country Ladle Potato and Leek Soup""}",rubber fragments,soup,False,True
+610,validation,BSE agent,Beef Carcass,"{'hazard': 'BSE agent', 'product': 'beef carcass'}",specified risk material (srm),beef,False,True
+611,validation,Illness,Bravo White Vanilla confectionary / Ice cream,"{'hazard': 'Illness', 'product': 'Bravo White Vanilla confectionary / Ice cream'}",labelling/misdescription,ice cream,False,True
+617,validation,gluten,Vitality Bakehouse Chocolate Mint Cookies and Vitality Bakehouse Vanilla Honey Cookies,"{'hazard': 'gluten', 'product': 'Vitality Bakehouse Chocolate Mint Cookies and Vitality Bakehouse Vanilla Honey Cookies'}",cereals containing gluten and products thereof,biscuits,True,False
+629,validation,undeclared allergen - wheat,Game Farm Quail Medallions Marinated,"{'hazard': 'undeclared allergen - wheat', 'product': 'Game Farm Quail Medallions Marinated'}",cereals containing gluten and products thereof,quail,False,True
+645,validation,Salmonella,Cilantro,"{'hazard': 'Salmonella', 'product': 'cilantro'}",salmonella,spreads,True,False
+683,validation,Salmonella,Shell Eggs,"{'hazard': 'Salmonella', 'product': 'shell eggs'}",salmonella,eggs,True,True
+686,validation,salmonella,alfalfa sprouts,"{'hazard': 'Salmonella', 'product': 'Alfalfa Sprouts'}",salmonella,sprouts,True,True
+695,validation,E. coli O157:H7,frozen ground beef patties,"{'hazard': 'E. coli O157:H7', 'product': 'frozen ground beef patties'}",escherichia coli,frozen beef patties,True,True
+719,validation,soy,So Good Rice Milk,"{'hazard': 'soy', 'product': 'So Good Rice Milk'}",soybeans and products thereof,other dairy products,True,False
+739,validation,radioactive substances,Meiji Step Milk Powder (For 9 months - 3 years),"{'hazard': 'radioactive substances', 'product': 'Meiji Step Milk Powder (For 9 months - 3 years)'}",other,milk powder,True,True
+757,validation,fine wire thread,Breakfast Cereal,"{'hazard': 'fine wire thread', 'product': 'Breakfast Cereal'}",metal fragment,breakfast cereals,False,True
+759,validation,choking hazard,Lychee Flavoured Fruit Jelly / Mango Flavoured Fruit Jelly,"{'hazard': 'choking hazard', 'product': 'Lychee Flavoured Fruit Jelly / Mango Flavoured Fruit Jelly'}",e 425 - konjac unauthorised,jellies,True,True
+764,validation,Listeria monocytogenes,DOLEÃ‚Â® Italian Blend salad,"{'hazard': 'Listeria monocytogenes', 'product': 'DOLEÃ‚Â® Italian Blend salad'}",listeria monocytogenes,salads,True,True
+804,validation,Salmonella,Albertsons Brand Ice Cream,"{'hazard': 'Salmonella', 'product': 'Albertsons Brand Ice Cream'}",salmonella,ice cream,True,True
+806,validation,Undeclared Allergens,Honey BBQ Flavored Boneless Chicken Wyngz,"{'hazard': 'undeclared allergens', 'product': 'Honey BBQ Flavored Boneless Chicken Wyngz'}",milk and products thereof,frozen chicken wings,False,True
+810,validation,Listeria monocytogenes,Prager Ham,"{'hazard': 'Listeria monocytogenes', 'product': 'Prager Ham'}",listeria monocytogenes,chilled ham,True,True
+811,validation,Listeria monocytogenes,Prager Leg Ham,"{'hazard': 'Listeria monocytogenes', 'product': 'Prager Leg Ham'}",listeria monocytogenes,ham,True,True
+818,validation,Listeria monocytogenes,Dole American Blend salad,"{'hazard': 'Listeria monocytogenes', 'product': 'Dole American Blend salad'}",listeria monocytogenes,salads,True,True
+824,validation,MSG,Bob Evans Maple Links,"{'hazard': 'MSG', 'product': 'Bob Evans Maple Links'}",undeclared additive,other types of meat,False,False
+826,validation,Salmonella,Gluten Free Café Chocolate Sesame,"{'hazard': 'Salmonella', 'product': 'Gluten Free Café Chocolate Sesame Bars'}",salmonella,bars,True,True
+841,validation,Undeclared Sulfites,Turkana Valley” Brand Dried Apricots,"{'hazard': 'Undeclared sulfites', 'product': 'Turkana Valley” Brand Dried Apricots'}",sulphur dioxide and sulphites,dried apricots,True,True
+852,validation,peanuts & gluten,Homebrand Choc Eclairs,"{'hazard': 'peanuts & gluten', 'product': 'Homebrand Choc Eclairs'}",cereals containing gluten and products thereof,chocolate dessert,False,True
+853,validation,quality/spoilage,Duke's brand Dry Apple Cider,"{'hazard': 'quality/spoilage', 'product': ""Duke's brand Dry Apple Cider""}",spoilage,cider,True,True
+868,validation,Milk,Suma Organic Pesto Alla Genovese with Basil,"{'hazard': 'Milk', 'product': 'Suma Organic Pesto Alla Genovese with Basil'}",milk and products thereof,basil pesto sauce,True,True
+877,validation,Listeria monocytogenes,DeLish brand Egg Salad on HoneyWheat Sandwich,"{'hazard': 'Listeria monocytogenes', 'product': 'DeLish brand Egg Salad on HoneyWheat Sandwich'}",listeria monocytogenes,sandwiches,True,True
+878,validation,Listeria monocytogenes,Cobb and Spinach Salads,"{'hazard': 'Listeria monocytogenes', 'product': 'Cobb and spinach salads'}",listeria monocytogenes,chilled salads,True,True
+903,validation,E. Coli O157:H7,Town & Country Foods XL Hamburg Patties,"{'hazard': 'E. coli O157:H7', 'product': 'Town & Country Foods XL Hamburg Patties'}",escherichia coli,ground beef,True,True
+907,validation,Listeria monocytogenes,Albie's Pizza Calzone,"{'hazard': 'Listeria monocytogenes', 'product': ""Albie's Pizza Calzone""}",listeria monocytogenes,pizza,True,True
+912,validation,undeclared traces of egg,Glazers Donuts,"{'hazard': 'undeclared traces of egg', 'product': 'Glazers Donuts'}",eggs and products thereof,donuts,False,True
+913,validation,Undeclared Allergen,CITTERIO RUSTICO CHORIZO SPANISH STYLE,"{'hazard': 'undeclared allergen', 'product': 'CITTERIO RUSTICO CHORIZO SPANISH STYLE'}",soybeans and products thereof,chorizo,False,True
+916,validation,ingestion of glass fragments,McWilliam's Cream Tawny,"{'hazard': 'ingestion of glass fragments', 'product': ""McWilliam's Cream Tawny""}",packaging defect,wine,False,True
+918,validation,Undeclared Allergen,Saffron Road Lamb Koftis,"{'hazard': 'undeclared allergen', 'product': 'Saffron Road Lamb Koftis'}",milk and products thereof,kefta (frozen meatballs),False,True
+930,validation,Salmonella,ground coriander,"{'hazard': 'salmonella', 'product': 'ground coriander'}",salmonella,fruits and vegetables,True,False
+931,validation,undeclared allergen (milk),Macro Lactose-Free Christmas Chocolates,"{'hazard': 'undeclared allergen (milk)', 'product': 'Macro Lactose-Free Christmas Chocolates'}",milk and products thereof,chocolate,True,True
+936,validation,foreign body contamination,Chokablok ice cream,"{'hazard': 'foreign body contamination', 'product': 'Chokablok ice cream'}",pieces of wood,ice cream,False,True
+949,validation,sulphites,Dolmio Pasta Bake Creamy Sundried Tomato & Garlic Sauce,"{'hazard': 'sulphites', 'product': 'Dolmio Pasta Bake Creamy Sundried Tomato & Garlic Sauce'}",sulphur dioxide and sulphites,cooking sauce,False,True
+963,validation,Salmonella Enteritidis,Grnd Beef Fine 85/15,"{'hazard': 'Salmonella Enteritidis', 'product': 'Grnd Beef Fine 85/15'}",salmonella,ground beef meat,True,True
+997,validation,Listeria monocytogenes,Ricotta Salata Frescolina Brand Cheese,"{'hazard': 'Listeria monocytogenes', 'product': 'Ricotta Salata Frescolina brand cheese'}",listeria monocytogenes,cheese,True,True
+1014,validation,Wheat,Naturals Gluten-Free Chicken Nuggets,"{'hazard': 'wheat', 'product': 'APPLEGATE Naturals Gluten-Free Chicken Nuggets'}",cereals containing gluten and products thereof,chicken based products,False,True
+1027,validation,Bacillus cereus bacteria,Garlic Powder,"{'hazard': 'Bacillus cereus bacteria', 'product': 'Garlic Powder'}",bacillus spp.,garlic powder,True,True
+1029,validation,Salmonella Heidelberg,Rotisserie Chicken Products,"{'hazard': 'Salmonella Heidelberg', 'product': 'rotisserie chicken products'}",salmonella,chicken and chicken preparations,True,True
+1039,validation,metal shavings,Chocolate Peanut Butter Cup Premium Ice Cream,"{'hazard': 'metal shavings', 'product': 'Chocolate Peanut Butter Cup Premium Ice Cream'}",metal fragment,ice cream,True,True
+1059,validation,Staphylococcus Aureus Enterotoxin,Sandwiches brand Pork Sausages,"{'hazard': 'Staphylococcus aureus enterotoxin', 'product': ""Lee's Sandwiches brand Pork Sausages""}",staphylococcus,sausage products,True,True
+1070,validation,fragments of glass,Culinary Collection Mushroom Mezzaluna Ravioli,"{'hazard': 'fragments of glass', 'product': 'LEAN CUISINE Culinary Collection Mushroom Mezzaluna Ravioli'}",glass fragment,ravioli,True,True
+1090,validation,E. coli,Shaw River Buffalo Yoghurt,"{'hazard': 'E. coli', 'product': 'Shaw River Buffalo Yoghurt'}",escherichia coli,yoghurt,True,True
+1110,validation,Undeclared Allergens,pork meat pie products,"{'hazard': 'undeclared allergens', 'product': 'pork meat pie products'}",milk and products thereof,other not classified meat products,False,True
+1111,validation,Undeclared Allergens,Savoie's Cajun Singles Louisiana Pork Stew,"{'hazard': 'undeclared allergens', 'product': ""Savoie's Cajun Singles Louisiana Pork Stew""}",milk and products thereof,frozen pork preparations,False,True
+1115,validation,Salmonella bacteria,McCormick brand seasoning blends,"{'hazard': 'Salmonella bacteria', 'product': 'McCormick brand seasoning blends'}",salmonella,seasoning blends,True,True
+1121,validation,Walnuts,Uncle Eddies Vegan Oatmeal Chocolate Cookies,"{'hazard': 'walnuts', 'product': 'Uncle Eddies Vegan Oatmeal Chocolate Cookies'}",walnut,cookies,True,True
+1167,validation,Salmonella,Publix Pistachios,"{'hazard': 'Salmonella', 'product': 'Publix Pistachios'}",salmonella,pistachio nuts,True,True
+1175,validation,Salmonella,shelled pistachios,"{'hazard': 'Salmonella', 'product': 'shelled pistachios'}",salmonella,pistachio nuts,True,True
+1178,validation,listeria contamination,asadero and oaxaca cheeses,"{'hazard': 'Listeria contamination', 'product': 'Asadero and Oaxaca cheeses'}",listeria monocytogenes,cheese,True,True
+1191,validation,Salmonella,"raw, frozen peanut butter cookie dough","{'hazard': 'Salmonella', 'product': 'raw, frozen peanut butter cookie dough'}",salmonella,cookies,True,False
+1193,validation,Salmonella,bulk peanut butter,"{'hazard': 'Salmonella', 'product': 'Bulk Peanut Butter'}",salmonella,peanuts,True,False
+1194,validation,Salmonella,Peanut Corporation of America (PCA),"{'hazard': 'Salmonella', 'product': 'Peanut Corporation of America (PCA) products'}",salmonella,peanuts,True,True
+1196,validation,Salmonella,peanut products,"{'hazard': 'Salmonella', 'product': 'peanut products'}",salmonella,candies,True,False
+1211,validation,salmonella,market pantry chocolate covered peanuts,"{'hazard': 'salmonella', 'product': 'Market Pantry Chocolate Covered Peanuts'}",salmonella,candies,True,False
+1220,validation,"undeclared allergens (milk, egg, wheat and soy)",Glico Collon Strawberry Biscuits,"{'hazard': 'undeclared allergens (milk, egg, wheat and soy)', 'product': 'Glico Collon Strawberry Biscuits'}",milk and products thereof,biscuits,False,True
+1236,validation,,New Whey,"{'hazard': None, 'product': 'New Whey'}",other,dietary supplement,False,False
+1240,validation,Undeclared Allergen,Cured Pork Products,"{'hazard': 'undeclared allergen', 'product': 'cured pork products'}",cereals containing gluten and products thereof,cured pork meat,False,True
+1253,validation,DMAA,Creafuse Powder,"{'hazard': 'DMAA', 'product': 'Creafuse Powder'}",other,dietary supplement,True,True
+1255,validation,,raw and frozen meat and poultry “pelmeni” (Eastern European-style ravioli products),"{'hazard': None, 'product': 'raw and frozen meat and poultry “pelmeni” (Eastern European-style ravioli products)'}",inspection issues,pasta products,False,False
+1292,validation,Peanuts,"Macro Cashew Spread, Almond Spread, Organic Peanut Butter Smooth & Organic Peanut Butter Crunchy","{'hazard': 'Peanuts', 'product': 'Macro Cashew Spread, Almond Spread, Organic Peanut Butter Smooth & Organic Peanut Butter Crunchy'}",almond,nuts mix,False,True
+1321,validation,E. Coli O157:H7,Ground Beef,"{'hazard': 'E. coli O157:H7', 'product': 'ground beef'}",escherichia coli,ground beef,True,True
+1348,validation,Listeria monocytogenes,Honey Soy Artichoke dip,"{'hazard': 'Listeria monocytogenes', 'product': 'Honey Soy Artichoke dip'}",listeria monocytogenes,dip-sauce,True,True
+1349,validation,Listeria monocytogenes,Honey Soy Artichoke Dip,"{'hazard': 'Listeria monocytogenes', 'product': 'honey soy artichoke dip'}",listeria monocytogenes,artichoke,True,True
+1354,validation,peanuts,Fully Cooked Barbacoa,"{'hazard': 'peanuts', 'product': 'Fully Cooked Barbacoa'}",peanuts and products thereof,pig meat - pork,True,True
+1393,validation,Undeclared Allergen,"seasoned raw, chicken breast strips","{'hazard': 'undeclared allergen', 'product': 'seasoned raw, chicken breast strips'}",soybeans and products thereof,seasoned chicken,False,False
+1399,validation,undeclared allergen (soy),Smoked Sea Salt / Gourmet Seasoning,"{'hazard': 'undeclared allergen (soy)', 'product': 'Smoked Sea Salt / Gourmet Seasoning'}",soybeans and products thereof,salt,True,True
+1400,validation,undeclared allergen (soy),Smoked Sea Salt Gourmet Seasoning,"{'hazard': 'undeclared allergen (soy)', 'product': 'Smoked Sea Salt Gourmet Seasoning'}",soybeans and products thereof,salt,True,True
+1426,validation,Listeria monocytogenes,Chicken Liver Pate,"{'hazard': 'Listeria monocytogenes', 'product': 'Chicken Liver Pate'}",listeria monocytogenes,pâté,True,True
+1440,validation,,Boneless Skinless Chicken Breasts,"{'hazard': None, 'product': 'Boneless Skinless Chicken Breasts'}",cereals,chicken breast,True,True
+1450,validation,milk,Woolworths Select Finishing Sauce Caramelised Onion & Roasted Garlic Reduction,"{'hazard': 'milk', 'product': 'Woolworths Select Finishing Sauce Caramelised Onion & Roasted Garlic Reduction'}",milk and products thereof,sauce,True,True
+1464,validation,biotoxin (histamine) contamination,Connie's Kitchen Gourmet Tuyo Dried Herrings,"{'hazard': 'biotoxin (histamine) contamination', 'product': ""Connie's Kitchen Gourmet Tuyo Dried Herrings""}",toxin,Fishes not identified,True,False
+1468,validation,pistachios,Mint ‘n Chip ice cream,"{'hazard': 'pistachios', 'product': 'Mint ‘n Chip ice cream'}",nuts,ice cream,False,True
+1502,validation,Listeria monocytogenes,Chicken Extra Thin Cutlets,"{'hazard': 'Listeria monocytogenes', 'product': ""Mom's Chicken Extra Thin Cutlets""}",listeria monocytogenes,chicken based products,True,True
+1506,validation,,Smokey Sweet BBQ Style Chicken Strips,"{'hazard': None, 'product': 'Smokey Sweet BBQ Style Chicken Strips'}",processing,chicken preparations,False,True
+1519,validation,undeclared sesame,PC Organics brand Original stoned wheat crackers,"{'hazard': 'undeclared sesame', 'product': 'PC Organics brand Original stoned wheat crackers'}",sesame seeds and products thereof,crackers,True,True
+1520,validation,barley (gluten),Booths Bombay Mix,"{'hazard': 'barley (gluten)', 'product': 'Booths Bombay Mix'}",cereals containing gluten and products thereof,snack mix,False,True
+1522,validation,Temperature Abuse,Applegate Naturals Gluten-free Uncured Beef Corn Dogs,"{'hazard': 'temperature abuse', 'product': 'Applegate Naturals Gluten-free Uncured Beef Corn Dogs'}",improper conditions,fermented beef meat,True,True
+1524,validation,small pieces of plastic,Quorn 4 Classic Burgers,"{'hazard': 'small pieces of plastic', 'product': 'Quorn 4 Classic Burgers'}",plastic fragment,frozen burgers,True,True
+1532,validation,processing deviation in temperature,GOOD WHOLE YOUNG CHICKENS,"{'hazard': 'processing deviation in temperature', 'product': ""COOKIN' GOOD WHOLE YOUNG CHICKENS""}",processing,fresh whole chicken,True,True
+1545,validation,,pork products,"{'hazard': None, 'product': 'pork products'}",inspection issues,Dried pork meat,False,True
+1550,validation,Undeclared Allergen,Chicken Breast Fritters,"{'hazard': 'undeclared allergen', 'product': 'chicken breast fritters'}",peanuts and products thereof,chicken based products,False,True
+1573,validation,peanuts,Smoked Pork Andouille Sausage,"{'hazard': 'peanuts', 'product': 'Smoked Pork Andouille Sausage'}",peanuts and products thereof,pork sausage,True,True
+1581,validation,undeclared milk,Coconut Juice,"{'hazard': 'undeclared milk', 'product': 'Coconut Juice'}",milk and products thereof,coconut juice,False,True
+1586,validation,,Turkey Products,"{'hazard': None, 'product': 'turkey products'}",inspection issues,turkey and turkey preparations,False,True
+1597,validation,dairy,Fresh Frozen Young Coconut Juice,"{'hazard': 'dairy', 'product': 'Fresh Frozen Young Coconut Juice'}",milk and products thereof,coconut juice,True,True
+1598,validation,mould,Chicken Bites Snack Bags,"{'hazard': 'mould', 'product': 'Chicken Bites Snack Bags'}",moulds,chicken preparations,True,True
+1623,validation,off odor,"CHICKEN WING SECTIONS COATED WITH A FLAVORFUL HOT, TANGY SAUCE","{'hazard': 'off odor', 'product': 'chicken wing sections coated with a flavorful hot, tangy sauce'}",bad smell / off odor,"fully cooked, frozen chicken wings",True,True
+1627,validation,glass fragments,Ginger Marmalade,"{'hazard': 'glass fragments', 'product': 'Ginger Marmalade'}",glass fragment,jam,True,False
+1642,validation,dairy,Nutty Bruce Organic Coconut Milk,"{'hazard': 'dairy', 'product': 'Nutty Bruce Organic Coconut Milk'}",milk and products thereof,coconut milk,True,True
+1661,validation,Clostridium botulinum,Native Catch Salmon Bacon,"{'hazard': 'Clostridium botulinum', 'product': 'Native Catch Salmon Bacon'}",clostridium botulinum,salmon,True,True
+1667,validation,E.coli (STEC),Sevre & Belle Le Chevrot Au Lait Cru cheese,"{'hazard': 'E.coli (STEC)', 'product': 'Sevre & Belle Le Chevrot Au Lait Cru cheese'}",escherichia coli,cheese,True,True
+1685,validation,peanut,Ground Almond,"{'hazard': 'peanut', 'product': 'Ground Almond'}",peanuts and products thereof,ground almonds,True,True
+1687,validation,nuts,Praline Melts,"{'hazard': 'nuts', 'product': 'Praline Melts'}",nuts,chocolate pralines,True,True
+1691,validation,sulphur dioxide,Dried Plums,"{'hazard': 'sulphur dioxide', 'product': 'Dried Plums'}",sulphur dioxide and sulphites,dried plums,True,True
+1712,validation,peanut,Iced Rich Fruit Cake,"{'hazard': 'peanut', 'product': 'Iced Rich Fruit Cake'}",peanuts and products thereof,cakes,True,True
+1719,validation,egg,Timboon Fine Ice Cream - Passionfruit Meringue,"{'hazard': 'egg', 'product': 'Timboon Fine Ice Cream - Passionfruit Meringue'}",incorrect labeling,ice cream,False,True
+1741,validation,Salmonella,Organic vegetarian chicken broth powder,"{'hazard': 'Salmonella', 'product': 'organic vegetarian chicken broth powder'}",salmonella,chicken broth,True,False
+1748,validation,sulphur dioxide,Afghan Dry Plum,"{'hazard': 'sulphur dioxide', 'product': 'Afghan Dry Plum'}",sulphur dioxide and sulphites,dried plums,True,True
+1753,validation,Listeria monocytogenes,ready-to-eat beef products,"{'hazard': 'Listeria monocytogenes', 'product': 'ready-to-eat beef products'}",listeria monocytogenes,thermal processed beef meat,True,True
+1772,validation,Listeria monocytogenes,Smoked Beef & Pork Pepper Stick,"{'hazard': 'Listeria monocytogenes', 'product': 'Smoked Beef & Pork Pepper Stick'}",listeria monocytogenes,dried beef meat,True,True
+1774,validation,sodium nitrite,Michigan Brand Honey Glazed Smoked Turkey,"{'hazard': 'sodium nitrite', 'product': 'Michigan Brand Honey Glazed Smoked Turkey'}",misbranding,turkey and turkey preparations,False,True
+1776,validation,undeclared milk,Bella Tavola brand pastas,"{'hazard': 'undeclared milk', 'product': 'Bella Tavola brand pastas'}",milk and products thereof,pasta,False,True
+1780,validation,Sudan IV,palm oil,"{'hazard': 'Sudan IV', 'product': 'palm oil'}",unauthorised colour sudan 4,palm oil,True,True
+1859,validation,Listeria monocytogenes,Smoked Salmon,"{'hazard': 'Listeria monocytogenes', 'product': 'smoked salmon'}",listeria monocytogenes,salmon,True,True
+1877,validation,Salmonella,Kroger Ground Cinnamon,"{'hazard': 'Salmonella', 'product': 'Kroger Ground Cinnamon'}",salmonella,seasonings,True,True
+1882,validation,plastic,SuperValu Carrot & Corriander Soup,"{'hazard': 'plastic', 'product': 'SuperValu Carrot & Corriander Soup'}",plastic fragment,soup,True,True
+1892,validation,gluten,Naturya Barleygrass Powder,"{'hazard': 'gluten', 'product': 'Naturya Barleygrass Powder'}",cereals containing gluten and products thereof,gluten-free barleygrass powder,True,True
+1893,validation,Salmonella,whole hogs for barbeque,"{'hazard': 'Salmonella', 'product': 'whole hogs for barbeque'}",salmonella,pork carcass(es),True,True
+1903,validation,E.coli,Goats Fetta Cheese,"{'hazard': 'E.coli', 'product': 'Goats Fetta Cheese'}",escherichia coli,feta cheese,True,True
+1972,validation,microbial contamination (coliforms),Pura HiLo White Milk,"{'hazard': 'microbial contamination (coliforms)', 'product': 'Pura HiLo White Milk'}",coliforms,milk,True,True
+1978,validation,salmonella,chicken tikka sandwiches,"{'hazard': 'salmonella', 'product': 'Chicken Tikka Sandwiches'}",salmonella,various snacks,True,False
+2046,validation,undercooking,ready-to-eat grilled chicken,"{'hazard': 'undercooking', 'product': 'ready-to-eat grilled chicken breast'}",processing,chicken breast,False,True
+2058,validation,peanuts,Coconut Almond Butter,"{'hazard': 'peanuts', 'product': 'Coconut Almond Butter'}",peanuts and products thereof,coconut almond butter,True,True
+2061,validation,Listeria monocytogenes,Sabra Hummus,"{'hazard': 'Listeria monocytogenes', 'product': 'Sabra Hummus'}",listeria monocytogenes,mashed chickpeas (hummus),True,True
+2066,validation,incorrect use by date,Elfa Bean Sprouts,"{'hazard': 'incorrect use by date', 'product': 'Elfa Bean Sprouts'}",other,mung bean sprouts,False,True
+2111,validation,milk,Lenny & Larry’s Complete Cookie Chocolate Chip,"{'hazard': 'milk', 'product': 'Lenny & Larry’s Complete Cookie Chocolate Chip'}",milk and products thereof,cookies,True,True
+2112,validation,"Milk, Egg, Soy, Wheat",Cranberry Orange Scone,"{'hazard': 'MILK, EGG, SOY, WHEAT', 'product': 'Cranberry Orange Scone'}",milk and products thereof,desserts,False,False
+2125,validation,Salmonella,Meyer Lemon Poppy Quick Bread,"{'hazard': 'Salmonella', 'product': 'Meyer Lemon Poppy Quick Bread'}",salmonella,bread mix,True,False
+2138,validation,Salmonella,Sour Cream & Onion Flavored Potato Chips,"{'hazard': 'Salmonella', 'product': 'Sour Cream & Onion Flavored Potato Chips'}",salmonella,potato chips,True,True
+2139,validation,spoilage,Tartar Sauce - Original,"{'hazard': 'spoilage', 'product': 'Tartar Sauce - Original'}",spoilage,sauce,True,True
+2141,validation,Salmonella,R&amp;H Speedy Crème Instant Pudding and Pie Filling Mix,"{'hazard': 'Salmonella', 'product': 'R&amp;H Speedy Crème Instant Pudding and Pie Filling Mix'}",salmonella,baking mix,True,True
+2185,validation,salmonella,raw pistachio products,"{'hazard': 'Salmonella', 'product': 'raw pistachio products'}",salmonella,pistachio nuts,True,True
+2187,validation,E.coli,Westhaven Coconut Yoghurt,"{'hazard': 'E.coli', 'product': 'Westhaven Coconut Yoghurt'}",escherichia coli,yoghurt,True,True
+2194,validation,Salmonella,Chappaqua Crunch Simply Granola with Blueberries & Bananas,"{'hazard': 'Salmonella', 'product': 'Chappaqua Crunch Simply Granola with Blueberries & Bananas'}",salmonella,nut and fruit mixture,True,False
+2197,validation,Salmonella,Sprouted Flax Seed Powder,"{'hazard': 'Salmonella', 'product': 'Sprouted Flax Seed Powder'}",salmonella,flaxseed,True,True
+2214,validation,pieces of plastic,kettle chips,"{'hazard': 'pieces of plastic', 'product': 'Kettle Chips'}",plastic fragment,potato chips,True,False

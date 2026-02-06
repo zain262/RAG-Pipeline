@@ -1,0 +1,2271 @@
+row_id,semeval-split,hazard-category_true,product-category_true,hazard-category_pred,product-category_pred,raw_hazard_pred,raw_product_pred,raw_model_output,error
+8,validation,biological,"meat, egg and dairy products",,"meat, egg and dairy products",bacteria,"meat, egg and dairy products"," {
+""hazard_category"": ""bacteria"",
+""product_category"": ""meat, egg and dairy products""
+}",
+9,validation,biological,"meat, egg and dairy products",,"meat, egg and dairy products",bacteria,"meat, egg and dairy products"," {
+""hazard_category"": ""bacteria"",
+""product_category"": ""meat, egg and dairy products""
+}",
+14,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+39,validation,foreign bodies,cereals and bakery products,foreign bodies,cereals and bakery products,foreign bodies,bakery," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""bakery""
+}",
+53,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+56,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+62,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,dairy products," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""dairy products""
+}",
+93,validation,biological,seafood,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+95,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+99,validation,biological,alcoholic beverages,packaging defect,alcoholic beverages,packaging defect,alcoholic beverages," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""alcoholic beverages""
+}",
+108,validation,packaging defect,alcoholic beverages,,alcoholic beverages,injury,alcoholic beverages," {
+  ""hazard_category"": ""injury"",
+  ""product_category"": ""alcoholic beverages""
+}",
+109,validation,foreign bodies,prepared dishes and snacks,,"meat, egg and dairy products",contamination,dairy products," {
+  ""hazard_category"": ""contamination"",
+  ""product_category"": ""dairy products""
+}",
+115,validation,foreign bodies,cereals and bakery products,foreign bodies,cereals and bakery products,foreign bodies,bakery products," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""bakery products""
+}",
+130,validation,chemical,seafood,,,aflatoxins,canned foods," {
+  ""hazard_category"": ""aflatoxins"",
+  ""product_category"": ""canned foods""
+}",
+140,validation,chemical,"soups, broths, sauces and condiments",chemical,,chemical,groceries," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""groceries""
+}",
+147,validation,chemical,fats and oils,chemical,,chemical,olive-pomace oil," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""olive-pomace oil""
+}",
+155,validation,fraud,cereals and bakery products,,,mould contamination,breads and flour products," {
+  ""hazard_category"": ""mould contamination"",
+  ""product_category"": ""breads and flour products""
+}",
+157,validation,biological,non-alcoholic beverages,biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+158,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+159,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+162,validation,foreign bodies,prepared dishes and snacks,foreign bodies,,foreign bodies,noodles," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""noodles""
+}",
+166,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+169,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+191,validation,allergens,confectionery,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+201,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+205,validation,fraud,"soups, broths, sauces and condiments",allergens,,allergens,"sauces, broths, sauces and condiments"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""sauces, broths, sauces and condiments""
+}",
+211,validation,foreign bodies,"soups, broths, sauces and condiments",foreign bodies,non-alcoholic beverages,foreign bodies,non-alcoholic beverages," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+217,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+220,validation,biological,"meat, egg and dairy products",biological,seafood,biological,"meat, seafood and deli"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, seafood and deli""
+}",
+236,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+237,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+240,validation,biological,ices and desserts,biological,ices and desserts,biological,ices and desserts," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""ices and desserts""
+}",
+241,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+260,validation,chemical,non-alcoholic beverages,chemical,non-alcoholic beverages,chemical,non-alcoholic beverages," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+265,validation,allergens,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+276,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+293,validation,biological,"meat, egg and dairy products",,"meat, egg and dairy products",listeria,"meat, egg and dairy products"," {
+  ""hazard_category"": ""listeria"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+294,validation,foreign bodies,cereals and bakery products,foreign bodies,,foreign bodies,groceries," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""groceries""
+}",
+298,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+305,validation,chemical,seafood,,seafood,food poisoning,seafood," {
+  ""hazard_category"": ""food poisoning"",
+  ""product_category"": ""seafood""
+}",
+306,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+313,validation,allergens,cereals and bakery products,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+326,validation,other hazard,non-alcoholic beverages,,non-alcoholic beverages,fermentation,non-alcoholic beverages," {
+  ""hazard_category"": ""fermentation"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+334,validation,biological,seafood,,seafood,illness,seafood," {
+  ""hazard_category"": ""illness"",
+  ""product_category"": ""seafood""
+}",
+338,validation,fraud,"meat, egg and dairy products",packaging defect,,packaging defect,cheese," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""cheese""
+}",
+347,validation,foreign bodies,prepared dishes and snacks,foreign bodies,fruits and vegetables,foreign bodies,fruits and vegetables," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""fruits and vegetables""
+}",
+350,validation,biological,"meat, egg and dairy products",biological,,biological,dairy and eggs," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""dairy and eggs""
+}",
+352,validation,allergens,other food product / mixed,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+355,validation,allergens,cereals and bakery products,allergens,,allergens,groceries," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""groceries""
+}",
+370,validation,allergens,ices and desserts,allergens,,allergens,ice-creams," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ice-creams""
+}",
+373,validation,foreign bodies,fruits and vegetables,,fruits and vegetables,metal fragments,fruits and vegetables," {
+  ""hazard_category"": ""metal fragments"",
+  ""product_category"": ""fruits and vegetables""
+}",
+376,validation,foreign bodies,fruits and vegetables,foreign bodies,fruits and vegetables,foreign bodies,fruits and vegetables," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""fruits and vegetables""
+}",
+377,validation,foreign bodies,fruits and vegetables,foreign bodies,confectionery,foreign bodies,confectionery," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""confectionery""
+}",
+384,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+405,validation,foreign bodies,cereals and bakery products,foreign bodies,,foreign bodies,groceries," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""groceries""
+}",
+408,validation,foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks,foreign bodies,snacks," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""snacks""
+}",
+430,validation,allergens,"soups, broths, sauces and condiments",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+432,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,bakery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""bakery""
+}",
+433,validation,chemical,prepared dishes and snacks,chemical,prepared dishes and snacks,chemical,snacks," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""snacks""
+}",
+436,validation,fraud,herbs and spices,allergens,herbs and spices,allergens,spices," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""spices""
+}",
+460,validation,foreign bodies,confectionery,foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+467,validation,foreign bodies,cereals and bakery products,foreign bodies,cereals and bakery products,foreign bodies,cereals and bakery products," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""cereals and bakery products""
+}",
+481,validation,biological,"meat, egg and dairy products",biological,seafood,biological,"meat, seafood and deli"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, seafood and deli""
+}",
+497,validation,biological,ices and desserts,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+510,validation,fraud,"nuts, nut products and seeds",allergens,"nuts, nut products and seeds",allergens,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+549,validation,biological,ices and desserts,biological,ices and desserts,biological,ices and desserts," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""ices and desserts""
+}",
+550,validation,biological,ices and desserts,biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+564,validation,biological,ices and desserts,biological,ices and desserts,biological,ices and desserts," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""ices and desserts""
+}",
+578,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+587,validation,biological,cereals and bakery products,food additives and flavourings,,food additives and flavourings,pies," {
+  ""hazard_category"": ""food additives and flavourings"",
+  ""product_category"": ""pies""
+}",
+598,validation,foreign bodies,"soups, broths, sauces and condiments",foreign bodies,"soups, broths, sauces and condiments",foreign bodies,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+610,validation,other hazard,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+611,validation,fraud,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+617,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,bakery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""bakery""
+}",
+629,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+645,validation,biological,"soups, broths, sauces and condiments",biological,herbs and spices,biological,herbs and spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""herbs and spices""
+}",
+683,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+686,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+695,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+719,validation,allergens,"meat, egg and dairy products",allergens,,allergens,drinks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""drinks""
+}",
+739,validation,other hazard,"meat, egg and dairy products",,"meat, egg and dairy products",radioactive substances,"meat, egg and dairy products"," {
+  ""hazard_category"": ""radioactive substances"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+757,validation,foreign bodies,cereals and bakery products,foreign bodies,cereals and bakery products,foreign bodies,cereals and bakery products," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""cereals and bakery products""
+}",
+759,validation,food additives and flavourings,confectionery,foreign bodies,confectionery,foreign bodies,confectionery," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""confectionery""
+}",
+764,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+804,validation,biological,ices and desserts,biological,ices and desserts,biological,ices and desserts," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""ices and desserts""
+}",
+806,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+810,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+811,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+818,validation,biological,fruits and vegetables,biological,,biological,salads," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""salads""
+}",
+824,validation,fraud,"meat, egg and dairy products",food additives and flavourings,"meat, egg and dairy products",food additives and flavourings,"meat, egg and dairy products"," {
+""hazard_category"": ""food additives and flavourings"",
+""product_category"": ""meat, egg and dairy products""
+}",
+826,validation,biological,cereals and bakery products,biological,cereals and bakery products,biological,cereals and bakery products," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""cereals and bakery products""
+}",
+841,validation,allergens,fruits and vegetables,food additives and flavourings,fruits and vegetables,food additives and flavourings,fruits and vegetables," {
+  ""hazard_category"": ""food additives and flavourings"",
+  ""product_category"": ""fruits and vegetables""
+}",
+852,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+853,validation,organoleptic aspects,alcoholic beverages,,non-alcoholic beverages,quality/spoilage,non-alcoholic beverages," {
+  ""hazard_category"": ""quality/spoilage"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+868,validation,allergens,"soups, broths, sauces and condiments",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+877,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+878,validation,biological,prepared dishes and snacks,biological,prepared dishes and snacks,biological,prepared dishes and snacks," {
+""hazard_category"": ""biological"",
+""product_category"": ""prepared dishes and snacks""
+}",
+903,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",['biological'],"['meat, egg and dairy products', 'prepared dishes and snacks']"," {
+  ""hazard_category"": [""biological""],
+  ""product_category"": [""meat, egg and dairy products"", ""prepared dishes and snacks""]
+}",
+907,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+912,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""bakery products""
+}",
+913,validation,allergens,"meat, egg and dairy products",,"meat, egg and dairy products",undeclared allergen,"meat, egg and dairy products"," {
+""hazard_category"": ""undeclared allergen"",
+""product_category"": ""meat, egg and dairy products""
+}",
+916,validation,packaging defect,alcoholic beverages,,alcoholic beverages,glass,alcoholic beverages," {
+  ""hazard_category"": ""glass"",
+  ""product_category"": ""alcoholic beverages""
+}",
+918,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+930,validation,biological,fruits and vegetables,biological,herbs and spices,biological,herbs and spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""herbs and spices""
+}",
+931,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+936,validation,foreign bodies,ices and desserts,foreign bodies,ices and desserts,foreign bodies,ices and desserts," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""ices and desserts""
+}",
+949,validation,allergens,"soups, broths, sauces and condiments",,,sulphites,pasta_sauces," {
+  ""hazard_category"": ""sulphites"",
+  ""product_category"": ""pasta_sauces""
+}",
+963,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+997,validation,biological,"meat, egg and dairy products",biological,,biological,cheese," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""cheese""
+}",
+1014,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1027,validation,biological,fruits and vegetables,biological,herbs and spices,microbiological,spices," {
+  ""hazard_category"": ""microbiological"",
+  ""product_category"": ""spices""
+}",
+1029,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1039,validation,foreign bodies,ices and desserts,foreign bodies,non-alcoholic beverages,foreign bodies,non-alcoholic beverages," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+1059,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1070,validation,foreign bodies,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1090,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1110,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1111,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1115,validation,biological,herbs and spices,biological,"meat, egg and dairy products",microbiological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""microbiological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1121,validation,allergens,cereals and bakery products,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+1167,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+1175,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1178,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1191,validation,biological,cereals and bakery products,biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+1193,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1194,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1196,validation,biological,confectionery,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1211,validation,biological,confectionery,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+1220,validation,allergens,cereals and bakery products,allergens,,allergens,biscuits," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""biscuits""
+}",
+1236,validation,chemical,"dietetic foods, food supplements, fortified foods",food additives and flavourings,non-alcoholic beverages,food additives and flavourings,non-alcoholic beverages," {
+  ""hazard_category"": ""food additives and flavourings"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+1240,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1253,validation,chemical,"dietetic foods, food supplements, fortified foods",chemical,"dietetic foods, food supplements, fortified foods",chemical,"dietetic foods, food supplements, fortified foods"," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""dietetic foods, food supplements, fortified foods""
+}",
+1255,validation,fraud,other food product / mixed,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1292,validation,allergens,"nuts, nut products and seeds",allergens,,allergens,nut-products-and-seeds," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""nut-products-and-seeds""
+}",
+1321,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1348,validation,biological,"soups, broths, sauces and condiments",biological,prepared dishes and snacks,biological,prepared dishes and snacks," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+1349,validation,biological,fruits and vegetables,biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+1354,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1393,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1399,validation,allergens,"soups, broths, sauces and condiments",allergens,seafood,allergens,seafood," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""seafood""
+}",
+1400,validation,allergens,"soups, broths, sauces and condiments",allergens,herbs and spices,allergens,spices," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""spices""
+}",
+1426,validation,biological,"meat, egg and dairy products",,"meat, egg and dairy products",listeria,"meat, egg and dairy products"," {
+  ""hazard_category"": ""listeria"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1440,validation,fraud,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1450,validation,allergens,"soups, broths, sauces and condiments",allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+1464,validation,chemical,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+1468,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+1502,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1506,validation,other hazard,"meat, egg and dairy products",other hazard,"meat, egg and dairy products",other hazard,"meat, egg and dairy products"," {
+  ""hazard_category"": ""other hazard"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1519,validation,allergens,prepared dishes and snacks,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+1520,validation,allergens,prepared dishes and snacks,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+1522,validation,other hazard,"meat, egg and dairy products",,"meat, egg and dairy products",temperature abuse,"meat, egg and dairy products"," {
+  ""hazard_category"": ""temperature abuse"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1524,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1532,validation,other hazard,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products"," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1545,validation,fraud,"meat, egg and dairy products",food additives and flavourings,"meat, egg and dairy products",food additives and flavourings,"meat, egg and dairy products"," {
+""hazard_category"": ""food additives and flavourings"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1550,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1573,validation,allergens,"meat, egg and dairy products",,"meat, egg and dairy products",undeclared allergen,"meat, egg and dairy products"," {
+  ""hazard_category"": ""undeclared allergen"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1581,validation,allergens,non-alcoholic beverages,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+1586,validation,fraud,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products"," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1597,validation,allergens,non-alcoholic beverages,allergens,"meat, egg and dairy products",allergens,dairy products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dairy products""
+}",
+1598,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1623,validation,organoleptic aspects,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1627,validation,foreign bodies,confectionery,packaging defect,,packaging defect,preserves," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""preserves""
+}",
+1642,validation,allergens,non-alcoholic beverages,allergens,"meat, egg and dairy products",allergens,dairy products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dairy products""
+}",
+1661,validation,biological,seafood,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1667,validation,biological,"meat, egg and dairy products",biological,,biological,cheese," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""cheese""
+}",
+1685,validation,allergens,"nuts, nut products and seeds",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+1687,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,,allergens,chocolates," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""chocolates""
+}",
+1691,validation,allergens,fruits and vegetables,chemical,fruits and vegetables,chemical,fruits and vegetables," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""fruits and vegetables""
+}",
+1712,validation,allergens,cereals and bakery products,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+1719,validation,fraud,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+1741,validation,biological,"soups, broths, sauces and condiments",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1748,validation,allergens,fruits and vegetables,chemical,fruits and vegetables,chemical,fruits and vegetables," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""fruits and vegetables""
+}",
+1753,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1772,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1774,validation,fraud,"meat, egg and dairy products",,"meat, egg and dairy products",labeling,"meat, egg and dairy products"," {
+  ""hazard_category"": ""labeling"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1776,validation,allergens,cereals and bakery products,allergens,,allergens,pasta," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""pasta""
+}",
+1780,validation,chemical,fats and oils,chemical,,chemical,oils and fats," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""oils and fats""
+}",
+1859,validation,biological,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+1877,validation,biological,herbs and spices,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1882,validation,foreign bodies,"soups, broths, sauces and condiments",foreign bodies,"soups, broths, sauces and condiments",foreign bodies,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+1892,validation,allergens,"dietetic foods, food supplements, fortified foods",allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+1893,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+1903,validation,biological,"meat, egg and dairy products",biological,,biological,dairy and eggs," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""dairy and eggs""
+}",
+1972,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+1978,validation,biological,other food product / mixed,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2046,validation,other hazard,"meat, egg and dairy products",,"meat, egg and dairy products",undercooked,"meat, egg and dairy products"," {
+  ""hazard_category"": ""undercooked"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2058,validation,allergens,"nuts, nut products and seeds",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+2061,validation,biological,fruits and vegetables,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2066,validation,fraud,fruits and vegetables,packaging defect,,packaging defect,"salads, lettuces and herbs"," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""salads, lettuces and herbs""
+}",
+2111,validation,allergens,cereals and bakery products,allergens,,allergens,cookies," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cookies""
+}",
+2112,validation,allergens,ices and desserts,allergens,cereals and bakery products,allergens,bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""bakery products""
+}",
+2125,validation,biological,cereals and bakery products,biological,cereals and bakery products,biological,bakery products," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""bakery products""
+}",
+2138,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2139,validation,organoleptic aspects,"soups, broths, sauces and condiments",biological,,microbiological,"sauces, broths, sauces and condiments"," {
+  ""hazard_category"": ""microbiological"",
+  ""product_category"": ""sauces, broths, sauces and condiments""
+}",
+2141,validation,biological,cereals and bakery products,biological,prepared dishes and snacks,biological,prepared dishes and snacks," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+2185,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+2187,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,dairy products," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""dairy products""
+}",
+2194,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2197,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+2214,validation,foreign bodies,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2219,validation,allergens,cereals and bakery products,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+2221,validation,fraud,prepared dishes and snacks,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2222,validation,allergens,confectionery,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+2257,validation,allergens,herbs and spices,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2262,validation,allergens,herbs and spices,allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+2272,validation,allergens,prepared dishes and snacks,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+2287,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2288,validation,allergens,"nuts, nut products and seeds",allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+2295,validation,allergens,cereals and bakery products,allergens,prepared dishes and snacks,allergens,prepared dishes and snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+2297,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2307,validation,allergens,cereals and bakery products,allergens,,allergens,ice-creams," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ice-creams""
+}",
+2314,validation,allergens,"dietetic foods, food supplements, fortified foods",allergens,"dietetic foods, food supplements, fortified foods",allergens,"dietetic foods, food supplements, fortified foods"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dietetic foods, food supplements, fortified foods""
+}",
+2324,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",['foreign bodies'],"['meat, egg and dairy products', 'institutional']"," {
+  ""hazard_category"": [""foreign bodies""],
+  ""product_category"": [""meat, egg and dairy products"", ""institutional""]
+}",
+2329,validation,allergens,cereals and bakery products,allergens,,allergens,cookies," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cookies""
+}",
+2367,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2403,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2436,validation,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+2441,validation,biological,cereals and bakery products,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2448,validation,allergens,prepared dishes and snacks,allergens,,allergens,cookies," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cookies""
+}",
+2462,validation,biological,"cocoa and cocoa preparations, coffee and tea",biological,confectionery,biological,confectionery," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""confectionery""
+}",
+2477,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+2478,validation,biological,fruits and vegetables,biological,pet feed,biological,pet feed," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""pet feed""
+}",
+2494,validation,allergens,ices and desserts,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+2518,validation,biological,cereals and bakery products,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2524,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2533,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+2541,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2546,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2549,validation,fraud,seafood,fraud,seafood,fraud,seafood," {
+""hazard_category"": ""fraud"",
+""product_category"": ""seafood""
+}",
+2551,validation,allergens,confectionery,allergens,,allergens,chocolate," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""chocolate""
+}",
+2553,validation,biological,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2559,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2566,validation,allergens,"dietetic foods, food supplements, fortified foods",allergens,,allergens,protein_supplements," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""protein_supplements""
+}",
+2603,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2614,validation,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2625,validation,allergens,seafood,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2626,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2634,validation,foreign bodies,herbs and spices,foreign bodies,herbs and spices,foreign bodies,spices," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""spices""
+}",
+2640,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+2670,validation,biological,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+2673,validation,allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+2674,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2685,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+2686,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+2695,validation,biological,confectionery,biological,confectionery,biological,confectionery," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""confectionery""
+}",
+2700,validation,allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+2726,validation,allergens,"nuts, nut products and seeds",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2758,validation,biological,"soups, broths, sauces and condiments",biological,"soups, broths, sauces and condiments",microbiological,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""microbiological"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+2808,validation,allergens,confectionery,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+2810,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2813,validation,allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+2815,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2820,validation,biological,fruits and vegetables,biological,,biological,salads," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""salads""
+}",
+2829,validation,other hazard,"nuts, nut products and seeds",foreign bodies,,foreign bodies,chilled and frozen," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""chilled and frozen""
+}",
+2846,validation,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+""hazard_category"": ""fraud"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2858,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2862,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+2864,validation,biological,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+2872,validation,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+2883,validation,allergens,cereals and bakery products,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+2904,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2909,validation,allergens,confectionery,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+2922,validation,allergens,confectionery,allergens,fruits and vegetables,allergens,fruits and vegetables," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""fruits and vegetables""
+}",
+2967,validation,allergens,fruits and vegetables,allergens,,allergens,salads," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""salads""
+}",
+2968,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2970,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2989,validation,allergens,"meat, egg and dairy products",,"meat, egg and dairy products",undeclared allergen,"meat, egg and dairy products"," {
+  ""hazard_category"": ""undeclared allergen"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+2992,validation,biological,prepared dishes and snacks,biological,,biological,salads," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""salads""
+}",
+2998,validation,biological,cereals and bakery products,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3002,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3022,validation,chemical,"soups, broths, sauces and condiments",chemical,"soups, broths, sauces and condiments",chemical,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+3026,validation,chemical,seafood,chemical,"meat, egg and dairy products",chemical,"meat, egg and dairy products"," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3034,validation,foreign bodies,other food product / mixed,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3052,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3060,validation,biological,ices and desserts,biological,,biological,ice cream," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""ice cream""
+}",
+3073,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3074,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3076,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3080,validation,biological,herbs and spices,biological,herbs and spices,biological,spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""spices""
+}",
+3081,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3088,validation,allergens,"soups, broths, sauces and condiments",allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+3100,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3139,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3183,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3191,validation,biological,cereals and bakery products,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3193,validation,allergens,cereals and bakery products,allergens,,allergens,sandwiches," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""sandwiches""
+}",
+3199,validation,packaging defect,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3208,validation,allergens,herbs and spices,allergens,herbs and spices,allergens,spices," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""spices""
+}",
+3213,validation,foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+3217,validation,allergens,cereals and bakery products,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+3239,validation,other hazard,"meat, egg and dairy products",foreign bodies,,foreign bodies,dairy and egg products," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""dairy and egg products""
+}",
+3244,validation,biological,cereals and bakery products,,ices and desserts,norovirus,ices and desserts," {
+  ""hazard_category"": ""norovirus"",
+  ""product_category"": ""ices and desserts""
+}",
+3254,validation,fraud,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3256,validation,allergens,"soups, broths, sauces and condiments",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3258,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3278,validation,allergens,other food product / mixed,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+3292,validation,allergens,alcoholic beverages,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3305,validation,foreign bodies,cereals and bakery products,foreign bodies,,foreign bodies,rice," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""rice""
+}",
+3316,validation,allergens,confectionery,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+3334,validation,fraud,prepared dishes and snacks,,"meat, egg and dairy products",misbranding,"meat, egg and dairy products"," {
+  ""hazard_category"": ""misbranding"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3344,validation,allergens,prepared dishes and snacks,allergens,,allergens,chilled and frozen," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""chilled and frozen""
+}",
+3362,validation,biological,confectionery,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3364,validation,allergens,seafood,allergens,"dietetic foods, food supplements, fortified foods",allergens,"dietetic foods, food supplements, fortified foods"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dietetic foods, food supplements, fortified foods""
+}",
+3440,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3444,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",undeclared allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""undeclared allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3475,validation,allergens,cereals and bakery products,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+3478,validation,allergens,"soups, broths, sauces and condiments",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+3486,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,,foreign bodies,pies," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""pies""
+}",
+3567,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3588,validation,allergens,confectionery,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+3590,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3594,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3638,validation,allergens,herbs and spices,allergens,herbs and spices,allergens,spices," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""spices""
+}",
+3644,validation,foreign bodies,confectionery,biological,confectionery,biological,confectionery," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""confectionery""
+}",
+3647,validation,organoleptic aspects,"soups, broths, sauces and condiments",organoleptic aspects,"meat, egg and dairy products",organoleptic aspects,dairy products," {
+  ""hazard_category"": ""organoleptic aspects"",
+  ""product_category"": ""dairy products""
+}",
+3676,validation,biological,fruits and vegetables,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3682,validation,other hazard,cereals and bakery products,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3717,validation,chemical,fruits and vegetables,chemical,seafood,chemical,seafood," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""seafood""
+}",
+3723,validation,biological,"soups, broths, sauces and condiments",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3735,validation,allergens,cereals and bakery products,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+3786,validation,biological,herbs and spices,biological,herbs and spices,biological,herbs and spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""herbs and spices""
+}",
+3798,validation,other hazard,confectionery,foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+3832,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3833,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3848,validation,allergens,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3868,validation,biological,herbs and spices,biological,herbs and spices,biological,spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""spices""
+}",
+3869,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+3883,validation,foreign bodies,fats and oils,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3911,validation,allergens,prepared dishes and snacks,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+3913,validation,packaging defect,non-alcoholic beverages,packaging defect,non-alcoholic beverages,packaging defect,non-alcoholic beverages," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+3914,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3925,validation,biological,"dietetic foods, food supplements, fortified foods",biological,herbs and spices,biological,herbs and spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""herbs and spices""
+}",
+3942,validation,food additives and flavourings,herbs and spices,food additives and flavourings,herbs and spices,food additives and flavourings,herbs and spices," {
+  ""hazard_category"": ""food additives and flavourings"",
+  ""product_category"": ""herbs and spices""
+}",
+3956,validation,biological,"nuts, nut products and seeds",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+3973,validation,fraud,"meat, egg and dairy products",,"meat, egg and dairy products",labeling,"meat, egg and dairy products"," {
+""hazard_category"": ""labeling"",
+""product_category"": ""meat, egg and dairy products""
+}",
+3978,validation,allergens,"meat, egg and dairy products",allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+3979,validation,organoleptic aspects,non-alcoholic beverages,organoleptic aspects,non-alcoholic beverages,organoleptic aspects,non-alcoholic beverages," {
+  ""hazard_category"": ""organoleptic aspects"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+3984,validation,foreign bodies,"cocoa and cocoa preparations, coffee and tea",foreign bodies,confectionery,foreign bodies,confectionery," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""confectionery""
+}",
+4002,validation,fraud,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4019,validation,allergens,alcoholic beverages,allergens,alcoholic beverages,allergens,alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""alcoholic beverages""
+}",
+4027,validation,fraud,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4036,validation,biological,fruits and vegetables,biological,,biological,frozen vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""frozen vegetables""
+}",
+4037,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4048,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4065,validation,allergens,"nuts, nut products and seeds",allergens,cereals and bakery products,allergens,cereals and bakery products," {
+""hazard_category"": ""allergens"",
+""product_category"": ""cereals and bakery products""
+}",
+4080,validation,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4098,validation,allergens,cereals and bakery products,,cereals and bakery products,gluten,cereals and bakery products," {
+  ""hazard_category"": ""gluten"",
+  ""product_category"": ""cereals and bakery products""
+}",
+4124,validation,foreign bodies,seafood,foreign bodies,,foreign bodies,"fish, meat and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""fish, meat and dairy products""
+}",
+4144,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4145,validation,chemical,non-alcoholic beverages,chemical,ices and desserts,chemical,ices and desserts," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""ices and desserts""
+}",
+4179,validation,fraud,non-alcoholic beverages,,non-alcoholic beverages,sugar,non-alcoholic beverages," {
+  ""hazard_category"": ""sugar"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+4183,validation,allergens,"soups, broths, sauces and condiments",allergens,"soups, broths, sauces and condiments",allergens,condiments," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""condiments""
+}",
+4193,validation,organoleptic aspects,"soups, broths, sauces and condiments",biological,"soups, broths, sauces and condiments",microbiological,condiments," {
+""hazard_category"": ""microbiological"",
+""product_category"": ""condiments""
+}",
+4196,validation,allergens,fruits and vegetables,allergens,fruits and vegetables,allergens,fruits and vegetables," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""fruits and vegetables""
+}",
+4200,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,confectionery,allergens,confectionery," {
+""hazard_category"": ""allergens"",
+""product_category"": ""confectionery""
+}",
+4203,validation,allergens,seafood,allergens,seafood,allergens,seafood," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""seafood""
+}",
+4205,validation,fraud,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4236,validation,foreign bodies,cereals and bakery products,foreign bodies,,foreign bodies,rice," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""rice""
+}",
+4246,validation,foreign bodies,fruits and vegetables,foreign bodies,"nuts, nut products and seeds",foreign bodies,"nuts, nut products and seeds"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""nuts, nut products and seeds""
+}",
+4253,validation,allergens,"meat, egg and dairy products",,"meat, egg and dairy products",undeclared allergen,"meat, egg and dairy products"," {
+  ""hazard_category"": ""undeclared allergen"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4260,validation,fraud,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4266,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4270,validation,organoleptic aspects,"soups, broths, sauces and condiments",biological,non-alcoholic beverages,microbiological,non-alcoholic beverages," {
+""hazard_category"": ""microbiological"",
+""product_category"": ""non-alcoholic beverages""
+}",
+4273,validation,allergens,"dietetic foods, food supplements, fortified foods",allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+4295,validation,other hazard,"soups, broths, sauces and condiments",biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+4297,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4312,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+4326,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4327,validation,biological,"meat, egg and dairy products",,,,,,"JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File ""C:\Users\zxin.ali_'s PC\Downloads\123\run_semeval_st1_rag.py"", line 279, in main
+    parsed = parse_json_strict(raw)
+  File ""C:\Users\zxin.ali_'s PC\Downloads\123\run_semeval_st1_rag.py"", line 91, in parse_json_strict
+    obj = json.loads(j)
+  File ""C:\Users\zxin.ali_'s PC\AppData\Local\Programs\Python\Python310\lib\json\__init__.py"", line 346, in loads
+    return _default_decoder.decode(s)
+  File ""C:\Users\zxin.ali_'s PC\AppData\Local\Programs\Python\Python310\lib\json\decoder.py"", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File ""C:\Users\zxin.ali_'s PC\AppData\Local\Programs\Python\Python310\lib\json\decoder.py"", line 355, in raw_decode
+    raise JSONDecodeError(""Expecting value"", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+"
+4330,validation,biological,non-alcoholic beverages,biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+""hazard_category"": ""biological"",
+""product_category"": ""non-alcoholic beverages""
+}",
+4400,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4419,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4458,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4491,validation,allergens,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4500,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4522,validation,biological,"nuts, nut products and seeds",biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+4557,validation,allergens,"nuts, nut products and seeds",allergens,"nuts, nut products and seeds",allergens,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+4558,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4560,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+4595,validation,allergens,herbs and spices,allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+4603,validation,allergens,cereals and bakery products,allergens,confectionery,allergens,confectionery," {
+""hazard_category"": ""allergens"",
+""product_category"": ""confectionery""
+}",
+4617,validation,fraud,seafood,foreign bodies,seafood,foreign bodies,seafood," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""seafood""
+}",
+4648,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+""hazard_category"": ""allergens"",
+""product_category"": ""cereals and bakery products""
+}",
+4649,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4657,validation,allergens,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4674,validation,foreign bodies,non-alcoholic beverages,foreign bodies,non-alcoholic beverages,foreign bodies,non-alcoholic beverages," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+4677,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+4688,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""bakery products""
+}",
+4697,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4703,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+""hazard_category"": ""biological"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4714,validation,allergens,"nuts, nut products and seeds",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+4746,validation,biological,fruits and vegetables,biological,herbs and spices,biological,herbs and spices," {
+""hazard_category"": ""biological"",
+""product_category"": ""herbs and spices""
+}",
+4751,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+4776,validation,allergens,seafood,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+4784,validation,biological,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+4803,validation,foreign bodies,"soups, broths, sauces and condiments",foreign bodies,"soups, broths, sauces and condiments",foreign bodies,"soups, broths, sauces and condiments"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""soups, broths, sauces and condiments""
+}",
+4805,validation,allergens,"nuts, nut products and seeds",allergens,"meat, egg and dairy products",allergens,dairy products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dairy products""
+}",
+4822,validation,fraud,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products"," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4853,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4879,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4881,validation,chemical,non-alcoholic beverages,chemical,non-alcoholic beverages,chemical,non-alcoholic beverages," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+4893,validation,fraud,prepared dishes and snacks,allergens,other food product / mixed,allergens,other food product / mixed," {
+""hazard_category"": ""allergens"",
+""product_category"": ""other food product / mixed""
+}",
+4904,validation,packaging defect,non-alcoholic beverages,packaging defect,non-alcoholic beverages,packaging defect,non-alcoholic beverages," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+4905,validation,allergens,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4909,validation,allergens,herbs and spices,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4936,validation,foreign bodies,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+""hazard_category"": ""foreign bodies"",
+""product_category"": ""meat, egg and dairy products""
+}",
+4944,validation,allergens,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+4954,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,prepared dishes and snacks,allergens,prepared dishes and snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+4980,validation,allergens,fruits and vegetables,allergens,"nuts, nut products and seeds",allergens,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+5023,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5038,validation,allergens,fruits and vegetables,allergens,fruits and vegetables,allergens,fruits and vegetables," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""fruits and vegetables""
+}",
+5043,validation,allergens,fruits and vegetables,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+5052,validation,allergens,confectionery,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+5079,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+5097,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5099,validation,biological,cereals and bakery products,biological,cereals and bakery products,biological,cereals and bakery products," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""cereals and bakery products""
+}",
+5103,validation,allergens,cereals and bakery products,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+5105,validation,fraud,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5124,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5131,validation,biological,herbs and spices,biological,herbs and spices,biological,spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""spices""
+}",
+5137,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+""hazard_category"": ""allergens"",
+""product_category"": ""meat, egg and dairy products""
+}",
+5141,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5162,validation,biological,"soups, broths, sauces and condiments",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5177,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+5197,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5221,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5238,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,ices and desserts,allergens,ices and desserts," {
+""hazard_category"": ""allergens"",
+""product_category"": ""ices and desserts""
+}",
+5253,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,dairy products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dairy products""
+}",
+5265,validation,biological,"meat, egg and dairy products",biological,,biological,cheese," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""cheese""
+}",
+5280,validation,chemical,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products",packaging defect,dairy products," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""dairy products""
+}",
+5306,validation,biological,non-alcoholic beverages,,non-alcoholic beverages,mould,non-alcoholic beverages," {
+  ""hazard_category"": ""mould"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+5312,validation,biological,confectionery,biological,confectionery,biological,confectionery," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""confectionery""
+}",
+5317,validation,chemical,cereals and bakery products,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5352,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+5387,validation,chemical,herbs and spices,chemical,"nuts, nut products and seeds",chemical,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+5404,validation,foreign bodies,cereals and bakery products,packaging defect,cereals and bakery products,packaging defect,cereals and bakery products," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""cereals and bakery products""
+}",
+5411,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5413,validation,allergens,"soups, broths, sauces and condiments",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5416,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5425,validation,chemical,"nuts, nut products and seeds",chemical,"meat, egg and dairy products",chemical,"meat, egg and dairy products"," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5445,validation,foreign bodies,prepared dishes and snacks,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5461,validation,allergens,fruits and vegetables,allergens,herbs and spices,allergens,spices," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""spices""
+}",
+5498,validation,allergens,cereals and bakery products,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+5507,validation,allergens,prepared dishes and snacks,allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+5555,validation,allergens,"dietetic foods, food supplements, fortified foods",allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+5557,validation,biological,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+5575,validation,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+5577,validation,fraud,"meat, egg and dairy products",,"meat, egg and dairy products",date labelling,"meat, egg and dairy products"," {
+""hazard_category"": ""date labelling"",
+""product_category"": ""meat, egg and dairy products""
+}",
+5579,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5597,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5609,validation,allergens,"nuts, nut products and seeds",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5622,validation,fraud,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,dairy products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dairy products""
+}",
+5627,validation,biological,cereals and bakery products,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5640,validation,biological,seafood,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5645,validation,allergens,fruits and vegetables,allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+5656,validation,allergens,seafood,allergens,seafood,allergens,seafood," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""seafood""
+}",
+5663,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5666,validation,allergens,prepared dishes and snacks,allergens,,allergens,Asian Food," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""Asian Food""
+}",
+5682,validation,chemical,non-alcoholic beverages,chemical,non-alcoholic beverages,chemical,non-alcoholic beverages," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+5694,validation,fraud,cereals and bakery products,packaging defect,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products"," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5701,validation,allergens,cereals and bakery products,allergens,non-alcoholic beverages,allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+5704,validation,biological,fruits and vegetables,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5717,validation,fraud,cereals and bakery products,fraud,"meat, egg and dairy products",fraud,"meat, egg and dairy products"," {
+""hazard_category"": ""fraud"",
+""product_category"": ""meat, egg and dairy products""
+}",
+5723,validation,allergens,seafood,allergens,seafood,allergens,seafood," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""seafood""
+}",
+5724,validation,packaging defect,seafood,packaging defect,seafood,packaging defect,seafood," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""seafood""
+}",
+5729,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+""hazard_category"": ""allergens"",
+""product_category"": ""ices and desserts""
+}",
+5731,validation,biological,herbs and spices,biological,herbs and spices,biological,spices," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""spices""
+}",
+5754,validation,fraud,cereals and bakery products,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5756,validation,biological,"soups, broths, sauces and condiments",,prepared dishes and snacks,mould,snacks," {
+""hazard_category"": ""mould"",
+""product_category"": ""snacks""
+}",
+5783,validation,biological,fruits and vegetables,biological,,biological,salads," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""salads""
+}",
+5829,validation,allergens,seafood,allergens,seafood,allergens,seafood," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""seafood""
+}",
+5850,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5865,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,"dietetic foods, food supplements, fortified foods",allergens,"dietetic foods, food supplements, fortified foods"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""dietetic foods, food supplements, fortified foods""
+}",
+5910,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+5958,validation,biological,fruits and vegetables,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+5996,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6002,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6008,validation,allergens,confectionery,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+6010,validation,allergens,confectionery,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+6020,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6041,validation,allergens,other food product / mixed,allergens,,allergens,pasta_and_noodles," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""pasta_and_noodles""
+}",
+6074,validation,allergens,cereals and bakery products,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+6096,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,['allergens'],"['cereals and bakery products', 'other food product / mixed']"," {
+  ""hazard_category"": [""allergens""],
+  ""product_category"": [""cereals and bakery products"", ""other food product / mixed""]
+}",
+6098,validation,allergens,prepared dishes and snacks,allergens,,allergens,salads," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""salads""
+}",
+6102,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6107,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6111,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""vegetables""
+}",
+6157,validation,fraud,feed materials,chemical,feed materials,chemical,feed materials," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""feed materials""
+}",
+6208,validation,biological,seafood,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6216,validation,fraud,fruits and vegetables,food additives and flavourings,fruits and vegetables,food additives and flavourings,fruits and vegetables," {
+  ""hazard_category"": ""food additives and flavourings"",
+  ""product_category"": ""fruits and vegetables""
+}",
+6218,validation,packaging defect,"dietetic foods, food supplements, fortified foods",packaging defect,"meat, egg and dairy products",packaging defect,"meat, egg and dairy products"," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6233,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""vegetables""
+}",
+6290,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+6295,validation,biological,fruits and vegetables,biological,fruits and vegetables,biological,fruits and vegetables," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""fruits and vegetables""
+}",
+6376,validation,foreign bodies,"soups, broths, sauces and condiments",foreign bodies,non-alcoholic beverages,foreign bodies,non-alcoholic beverages," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+6388,validation,allergens,cereals and bakery products,allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+6390,validation,chemical,"dietetic foods, food supplements, fortified foods",chemical,non-alcoholic beverages,chemical,non-alcoholic beverages," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+6428,validation,biological,herbs and spices,biological,,biological,asian_groceries," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""asian_groceries""
+}",
+6461,validation,allergens,"soups, broths, sauces and condiments",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6483,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6500,validation,allergens,confectionery,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+6502,validation,biological,fruits and vegetables,biological,fats and oils,biological,oils," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""oils""
+}",
+6511,validation,allergens,"nuts, nut products and seeds",allergens,confectionery,allergens,confectionery," {
+""hazard_category"": ""allergens"",
+""product_category"": ""confectionery""
+}",
+6518,validation,allergens,confectionery,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+6521,validation,allergens,"soups, broths, sauces and condiments",allergens,,allergens,salsas," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""salsas""
+}",
+6548,validation,allergens,fruits and vegetables,allergens,fruits and vegetables,allergens,vegetables," {
+""hazard_category"": ""allergens"",
+""product_category"": ""vegetables""
+}",
+6564,validation,allergens,confectionery,allergens,prepared dishes and snacks,allergens,snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""snacks""
+}",
+6580,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+""hazard_category"": ""allergens"",
+""product_category"": ""cereals and bakery products""
+}",
+6605,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,dairy products," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""dairy products""
+}",
+6614,validation,foreign bodies,fruits and vegetables,foreign bodies,prepared dishes and snacks,foreign bodies,prepared dishes and snacks," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+6619,validation,other hazard,fruits and vegetables,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6625,validation,allergens,prepared dishes and snacks,allergens,other food product / mixed,allergens,other food product / mixed," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""other food product / mixed""
+}",
+6673,validation,biological,seafood,biological,seafood,biological,seafood," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""seafood""
+}",
+6678,validation,allergens,cereals and bakery products,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+6691,validation,allergens,confectionery,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+6719,validation,organoleptic aspects,cereals and bakery products,,confectionery,microbial growth,confectionery," {
+  ""hazard_category"": ""microbial growth"",
+  ""product_category"": ""confectionery""
+}",
+6732,validation,biological,prepared dishes and snacks,biological,other food product / mixed,biological,other food product / mixed," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""other food product / mixed""
+}",
+6763,validation,chemical,"dietetic foods, food supplements, fortified foods",fraud,non-alcoholic beverages,fraud,non-alcoholic beverages," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+6764,validation,fraud,fruits and vegetables,chemical,fruits and vegetables,chemical,fruits and vegetables," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""fruits and vegetables""
+}",
+6788,validation,biological,herbs and spices,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6832,validation,allergens,prepared dishes and snacks,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6839,validation,fraud,other food product / mixed,chemical,seafood,chemical,seafood," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""seafood""
+}",
+6877,validation,foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products",foreign bodies,"meat, egg and dairy products"," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6887,validation,biological,prepared dishes and snacks,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6907,validation,chemical,ices and desserts,chemical,ices and desserts,chemical,ices and desserts," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""ices and desserts""
+}",
+6910,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+6960,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6964,validation,biological,other food product / mixed,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+6974,validation,other hazard,other food product / mixed,packaging defect,,packaging defect,frozen ready-to-eat meals," {
+""hazard_category"": ""packaging defect"",
+""product_category"": ""frozen ready-to-eat meals""
+}",
+7007,validation,allergens,fruits and vegetables,allergens,,allergens,pickles_and_chutneys," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""pickles_and_chutneys""
+}",
+7019,validation,biological,fruits and vegetables,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+7028,validation,biological,"meat, egg and dairy products",,,microbial,eggs and dairy," {
+  ""hazard_category"": ""microbial"",
+  ""product_category"": ""eggs and dairy""
+}",
+7031,validation,allergens,cereals and bakery products,allergens,non-alcoholic beverages,undeclared allergens,non-alcoholic beverages," {
+  ""hazard_category"": ""undeclared allergens"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+7049,validation,allergens,"cocoa and cocoa preparations, coffee and tea",foreign bodies,confectionery,foreign bodies,confectionery," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""confectionery""
+}",
+7065,validation,foreign bodies,fruits and vegetables,foreign bodies,,foreign bodies,frozen ready-to-eat meals," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""frozen ready-to-eat meals""
+}",
+7083,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+7103,validation,chemical,other food product / mixed,chemical,fats and oils,chemical,oils," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""oils""
+}",
+7105,validation,chemical,fruits and vegetables,,fruits and vegetables,lead,dried fruits and vegetables," {
+  ""hazard_category"": ""lead"",
+  ""product_category"": ""dried fruits and vegetables""
+}",
+7122,validation,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+7137,validation,allergens,prepared dishes and snacks,allergens,seafood,allergens,seafood," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""seafood""
+}",
+7142,validation,biological,fruits and vegetables,biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+7143,validation,fraud,fats and oils,packaging defect,"meat, egg and dairy products",packaging defect,dairy products," {
+  ""hazard_category"": ""packaging defect"",
+  ""product_category"": ""dairy products""
+}",
+7144,validation,allergens,"cocoa and cocoa preparations, coffee and tea",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+7158,validation,biological,pet feed,biological,pet feed,biological,pet feed," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""pet feed""
+}",
+7191,validation,foreign bodies,seafood,foreign bodies,seafood,foreign bodies,seafood," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""seafood""
+}",
+7197,validation,biological,cereals and bakery products,biological,,biological,baked goods," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""baked goods""
+}",
+7199,validation,packaging defect,alcoholic beverages,chemical,alcoholic beverages,chemical,alcoholic beverages," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""alcoholic beverages""
+}",
+7216,validation,chemical,fruits and vegetables,chemical,other food product / mixed,chemical,other food product / mixed," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""other food product / mixed""
+}",
+7232,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+7234,validation,allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products",allergens,"meat, egg and dairy products"," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+7236,validation,biological,"cocoa and cocoa preparations, coffee and tea",biological,,biological,chocolate," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""chocolate""
+}",
+7245,validation,biological,"cocoa and cocoa preparations, coffee and tea",biological,,biological,chocolate," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""chocolate""
+}",
+7249,validation,allergens,fruits and vegetables,allergens,fruits and vegetables,allergens,fruits and vegetables," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""fruits and vegetables""
+}",
+7251,validation,biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds",biological,"nuts, nut products and seeds"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""nuts, nut products and seeds""
+}",
+7317,validation,allergens,ices and desserts,allergens,ices and desserts,allergens,ices and desserts," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""ices and desserts""
+}",
+7323,validation,allergens,cereals and bakery products,allergens,cereals and bakery products,allergens,cereals and bakery products," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""cereals and bakery products""
+}",
+7378,validation,biological,"nuts, nut products and seeds",biological,non-alcoholic beverages,biological,non-alcoholic beverages," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+7380,validation,chemical,"dietetic foods, food supplements, fortified foods",fraud,food additives and flavourings,fraud,food additives and flavourings," {
+  ""hazard_category"": ""fraud"",
+  ""product_category"": ""food additives and flavourings""
+}",
+7410,validation,biological,"dietetic foods, food supplements, fortified foods",biological,"meat, egg and dairy products",biological,"meat, egg and dairy products"," {
+  ""hazard_category"": ""biological"",
+  ""product_category"": ""meat, egg and dairy products""
+}",
+7428,validation,chemical,ices and desserts,chemical,ices and desserts,chemical,ices and desserts," {
+  ""hazard_category"": ""chemical"",
+  ""product_category"": ""ices and desserts""
+}",
+7448,validation,allergens,prepared dishes and snacks,allergens,prepared dishes and snacks,allergens,prepared dishes and snacks," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""prepared dishes and snacks""
+}",
+7492,validation,allergens,"dietetic foods, food supplements, fortified foods",allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
+7504,validation,foreign bodies,cereals and bakery products,foreign bodies,non-alcoholic beverages,foreign bodies,non-alcoholic beverages," {
+  ""hazard_category"": ""foreign bodies"",
+  ""product_category"": ""non-alcoholic beverages""
+}",
+7523,validation,allergens,cereals and bakery products,allergens,,allergens,biscuits," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""biscuits""
+}",
+7524,validation,allergens,confectionery,allergens,confectionery,allergens,confectionery," {
+  ""hazard_category"": ""allergens"",
+  ""product_category"": ""confectionery""
+}",
